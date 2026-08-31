@@ -1,5 +1,5 @@
 # ada-verification (Repo 4) — Build a Suite From Nothing
-
+hello?
 An aircraft fuel monitor, originally written in Ada, ported to Python. `tests/` is **empty**. No scaffolding, no TODO stubs, no `pytest.skip` placeholders — you design the entire suite, name every test, choose every technique. That's the difference between this repo and the earlier ones, and it's much closer to what a live interview exercise or a first week on the job actually looks like.
 
 Scenario: legacy avionics Ada is being ported to a new platform. The Ada in `ada_src/` is the correct reference. The Python in `src/fuelmon/` is the port under test, and it **contains defects introduced during translation**. You verify the port against `docs/requirements.md`.
